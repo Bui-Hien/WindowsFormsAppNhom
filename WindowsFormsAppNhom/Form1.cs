@@ -19,7 +19,10 @@ namespace WindowsFormsAppNhom
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            this.Hide();
+            qlHDon qlHDon = new qlHDon();
+            qlHDon.ShowDialog();
+            this.Close();
         }
     }
 }
