@@ -171,8 +171,13 @@
     <EmbeddedResource Include="qlDoiTac.resx">
       <DependentUpon>qlDoiTac.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="qlHDon.resx">
       <DependentUpon>qlHDon.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="qlSP.resx">
+      <DependentUpon>qlSP.cs</DependentUpon>
+>>>>>>> 0a763a62064cb16de1dbdff64c891406920f9124
     </EmbeddedResource>
     <EmbeddedResource Include="qlTKCaNhan.resx">
       <DependentUpon>qlTKCaNhan.cs</DependentUpon>
