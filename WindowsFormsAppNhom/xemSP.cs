@@ -29,6 +29,9 @@ namespace WindowsFormsAppNhom
             this.Hide();
             dangNhap dangNhap = new dangNhap();
             dangNhap.ShowDialog();
+            this.Close();
+            khachHang dkHK = new khachHang();
+            dkHK.Close();
         }
 
         private void xemSP_Load(object sender, EventArgs e)
