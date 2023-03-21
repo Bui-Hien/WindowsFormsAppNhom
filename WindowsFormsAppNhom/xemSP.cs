@@ -32,6 +32,14 @@ namespace WindowsFormsAppNhom
             this.Close();
             khachHang dkHK = new khachHang();
             dkHK.Close();
+<<<<<<< HEAD
+=======
+        }
+
+        private void xemSP_Load(object sender, EventArgs e)
+        {
+
+>>>>>>> c68133ec8eb1ff0d5ea3c4fcdec58ba2c32b2ba4
         }
 
         private void xemSP_Load(object sender, EventArgs e)
