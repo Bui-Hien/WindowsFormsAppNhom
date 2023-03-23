@@ -19,7 +19,8 @@ namespace WindowsFormsAppNhom
         {
             InitializeComponent();
         }
-        string connectionString = "Data Source=DESKTOP-3H4H726\\SQLEXPRESS;Initial Catalog=quanlybandtdd; Integrated Security=True";
+        public static string nameSQL = "DESKTOP-3H4H726\\SQLEXPRESS";
+        string connectionString = "Data Source='"+nameSQL+"';Initial Catalog=quanlybandtdd; Integrated Security=True";
         SqlConnection connection = null;
         //băm mật khẩu
         public static string ComputeMD5Hash(string input)
