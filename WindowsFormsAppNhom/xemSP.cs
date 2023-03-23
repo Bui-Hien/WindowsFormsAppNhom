@@ -16,6 +16,7 @@ namespace WindowsFormsAppNhom
 {
     public partial class xemSP : Form
     {
+<<<<<<< HEAD
         int i = 0;
         public static string stringName = null;
         public static string stringGiasp = null;
@@ -28,6 +29,8 @@ namespace WindowsFormsAppNhom
         public List<object> datalistGia = new List<object>();
         public List<object> datalistSl = new List<object>();
         List<PictureBox> pictureBoxes = new List<PictureBox>();
+=======
+>>>>>>> af48c4a4b8de0afadda9c707e10b92b2de6e6251
         string connectionString = "Data Source=ADMIN\\QUOCHUY;Initial Catalog=quanlybandtdd; Integrated Security=True";
         SqlConnection connection = null;
         public xemSP()
@@ -51,6 +54,7 @@ namespace WindowsFormsAppNhom
 
         private void xemSP_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             pictureBoxes.Add(pictureBox1);
             pictureBoxes.Add(pictureBox2);
             pictureBoxes.Add(pictureBox3);
@@ -98,6 +102,35 @@ namespace WindowsFormsAppNhom
             //Số cột và số hàng của TableLayoutPanel
 
           
+=======
+            connection = new SqlConnection(connectionString);
+            connection.Open();
+            string query = "select linkImg from hangHoa";
+            SqlCommand cmd = new SqlCommand(query, connection);
+            SqlDataReader reader = null;
+            List<object> dataList = new List<object>();
+            reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                // Lấy giá trị của cột từ SqlDataReader và chuyển đổi nó thành kiểu dữ liệu đối tượng (object)
+                object data = reader.GetValue(0);
+
+                // Thêm giá trị của cột vào danh sách
+                dataList.Add(data);
+                textBox1.Text = data.ToString();
+            }
+            reader.Close();
+            pictureBox1.ImageLocation = (string)dataList[0];
+            pictureBox2.ImageLocation = (string)dataList[1];
+            pictureBox3.ImageLocation = (string)dataList[2];
+            pictureBox4.ImageLocation = (string)dataList[3];
+            pictureBox5.ImageLocation = (string)dataList[4];
+            pictureBox6.ImageLocation = (string)dataList[5];
+            pictureBox7.ImageLocation = (string)dataList[7];
+            pictureBox8.ImageLocation = (string)dataList[7];
+            pictureBox9.ImageLocation = (string)dataList[8];
+            //textBox1.Text = (string)dataList[6];
+>>>>>>> af48c4a4b8de0afadda9c707e10b92b2de6e6251
 
         }
 
