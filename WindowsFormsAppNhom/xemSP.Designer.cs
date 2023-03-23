@@ -30,6 +30,10 @@
         {
             this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
             this.panel11 = new System.Windows.Forms.Panel();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel10 = new System.Windows.Forms.Panel();
@@ -47,6 +51,19 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
+=======
+=======
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+>>>>>>> af48c4a4b8de0afadda9c707e10b92b2de6e6251
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
@@ -57,6 +74,10 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
             this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel10.SuspendLayout();
@@ -74,6 +95,19 @@
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
+<<<<<<< HEAD
+=======
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+>>>>>>> af48c4a4b8de0afadda9c707e10b92b2de6e6251
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -83,19 +117,44 @@
             // 
             this.panel2.Controls.Add(this.tableLayoutPanel1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
             this.panel2.Location = new System.Drawing.Point(2, 131);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(808, 362);
+<<<<<<< HEAD
+=======
+=======
+            this.panel2.Location = new System.Drawing.Point(2, 169);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(808, 324);
+>>>>>>> af48c4a4b8de0afadda9c707e10b92b2de6e6251
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
             this.panel2.TabIndex = 1;
             // 
             // tableLayoutPanel1
             // 
+<<<<<<< HEAD
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.Azure;
+=======
+<<<<<<< HEAD
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.Azure;
+=======
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.SkyBlue;
+>>>>>>> af48c4a4b8de0afadda9c707e10b92b2de6e6251
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
             this.tableLayoutPanel1.Controls.Add(this.panel11, 2, 2);
             this.tableLayoutPanel1.Controls.Add(this.panel10, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.panel9, 0, 2);
@@ -105,6 +164,20 @@
             this.tableLayoutPanel1.Controls.Add(this.panel5, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.panel4, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.panel3, 0, 0);
+<<<<<<< HEAD
+=======
+=======
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox9, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox8, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox7, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox6, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox5, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox4, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox3, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox2, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 0, 0);
+>>>>>>> af48c4a4b8de0afadda9c707e10b92b2de6e6251
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -112,6 +185,10 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(808, 362);
@@ -314,6 +391,113 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Tag = "1";
             this.pictureBox1.Click += new System.EventHandler(this.Link_Click);
+<<<<<<< HEAD
+=======
+=======
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(808, 324);
+            this.tableLayoutPanel1.TabIndex = 2;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox9.ImageLocation = "";
+            this.pictureBox9.Location = new System.Drawing.Point(541, 219);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(264, 102);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 17;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox8.ImageLocation = "";
+            this.pictureBox8.Location = new System.Drawing.Point(272, 219);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(263, 102);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 16;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox7.ImageLocation = "https://minhtuanmobile.com/uploads/blog/cach-chup-anh-thien-van-cuc-dep-chi-voi-i" +
+    "phone-cua-ban-220805072120.jpg";
+            this.pictureBox7.Location = new System.Drawing.Point(3, 219);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(263, 102);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 15;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox6.ImageLocation = "";
+            this.pictureBox6.Location = new System.Drawing.Point(541, 111);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(264, 102);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 14;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox5.ImageLocation = "";
+            this.pictureBox5.Location = new System.Drawing.Point(272, 111);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(263, 102);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 13;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox4.ImageLocation = "";
+            this.pictureBox4.Location = new System.Drawing.Point(3, 111);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(263, 102);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 12;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox3.ImageLocation = "";
+            this.pictureBox3.Location = new System.Drawing.Point(541, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(264, 102);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.ImageLocation = "";
+            this.pictureBox2.Location = new System.Drawing.Point(272, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(263, 102);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.ImageLocation = "";
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(263, 102);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+>>>>>>> af48c4a4b8de0afadda9c707e10b92b2de6e6251
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
             // 
             // panel1
             // 
@@ -327,7 +511,15 @@
             this.panel1.Location = new System.Drawing.Point(2, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
+<<<<<<< HEAD
             this.panel1.Size = new System.Drawing.Size(808, 125);
+=======
+<<<<<<< HEAD
+            this.panel1.Size = new System.Drawing.Size(808, 125);
+=======
+            this.panel1.Size = new System.Drawing.Size(808, 163);
+>>>>>>> af48c4a4b8de0afadda9c707e10b92b2de6e6251
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
             this.panel1.TabIndex = 0;
             // 
             // button3
@@ -356,6 +548,10 @@
             // 
             // searchbtn
             // 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
             this.searchbtn.Location = new System.Drawing.Point(442, 48);
             this.searchbtn.Margin = new System.Windows.Forms.Padding(2);
             this.searchbtn.Name = "searchbtn";
@@ -364,6 +560,18 @@
             this.searchbtn.Text = "Tìm kiếm";
             this.searchbtn.UseVisualStyleBackColor = true;
             this.searchbtn.Click += new System.EventHandler(this.searchbtn_Click);
+<<<<<<< HEAD
+=======
+=======
+            this.button1.Location = new System.Drawing.Point(442, 48);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(57, 34);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Tìm kiếm";
+            this.button1.UseVisualStyleBackColor = true;
+>>>>>>> af48c4a4b8de0afadda9c707e10b92b2de6e6251
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
             // 
             // textBox1
             // 
@@ -396,7 +604,15 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+<<<<<<< HEAD
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 366F));
+=======
+<<<<<<< HEAD
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 366F));
+=======
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 328F));
+>>>>>>> af48c4a4b8de0afadda9c707e10b92b2de6e6251
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
             this.tableLayoutPanel2.Size = new System.Drawing.Size(812, 495);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
@@ -412,6 +628,10 @@
             this.Load += new System.EventHandler(this.xemSP_Load);
             this.panel2.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
             this.panel11.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel10.ResumeLayout(false);
@@ -429,6 +649,19 @@
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
+<<<<<<< HEAD
+=======
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+>>>>>>> af48c4a4b8de0afadda9c707e10b92b2de6e6251
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -448,6 +681,10 @@
         private System.Windows.Forms.Button searchbtn;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Panel panel10;
@@ -466,5 +703,19 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox1;
+<<<<<<< HEAD
+=======
+=======
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+>>>>>>> af48c4a4b8de0afadda9c707e10b92b2de6e6251
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
     }
 }

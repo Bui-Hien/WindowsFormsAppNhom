@@ -27,7 +27,15 @@ namespace WindowsFormsAppNhom
             connection = new SqlConnection(connectionString);
             connection.Open();
             string qerry = "select maKh,tenKh,soDienThoai from khachHang";
+<<<<<<< HEAD
             
+=======
+<<<<<<< HEAD
+            
+=======
+            string querry = "select mahh,giaban from hanghoa";
+>>>>>>> af48c4a4b8de0afadda9c707e10b92b2de6e6251
+>>>>>>> 4779f2e7b36ec845870772a12a143de3eb042b64
             SqlDataAdapter dtp = new SqlDataAdapter(qerry, connection);
             dttb = new DataTable();
             dtp.Fill(dttb);
