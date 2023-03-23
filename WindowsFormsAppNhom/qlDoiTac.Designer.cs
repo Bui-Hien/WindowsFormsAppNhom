@@ -118,6 +118,7 @@ namespace WindowsFormsAppNhom
             this.splitContainer1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.splitContainer1.Location = new System.Drawing.Point(1, 0);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -128,15 +129,16 @@ namespace WindowsFormsAppNhom
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.dataGridView1);
-            this.splitContainer1.Size = new System.Drawing.Size(799, 447);
-            this.splitContainer1.SplitterDistance = 181;
+            this.splitContainer1.Size = new System.Drawing.Size(599, 363);
+            this.splitContainer1.SplitterDistance = 146;
+            this.splitContainer1.SplitterWidth = 3;
             this.splitContainer1.TabIndex = 0;
             // 
             // splitContainer2
             // 
-            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Top;
             this.splitContainer2.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.splitContainer2.Name = "splitContainer2";
             // 
             // splitContainer2.Panel1
@@ -158,28 +160,29 @@ namespace WindowsFormsAppNhom
             this.splitContainer2.Panel2.Controls.Add(this.textBox4);
             this.splitContainer2.Panel2.Controls.Add(this.label3);
             this.splitContainer2.Panel2.Controls.Add(this.label4);
-            this.splitContainer2.Size = new System.Drawing.Size(857, 181);
-            this.splitContainer2.SplitterDistance = 424;
-            this.splitContainer2.Size = new System.Drawing.Size(799, 176);
-            this.splitContainer2.SplitterDistance = 396;
+            this.splitContainer2.Size = new System.Drawing.Size(599, 143);
+            this.splitContainer2.SplitterDistance = 296;
+            this.splitContainer2.SplitterWidth = 3;
             this.splitContainer2.TabIndex = 0;
             // 
             // textBox2
             // 
             this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Location = new System.Drawing.Point(89, 63);
+            this.textBox2.Location = new System.Drawing.Point(67, 51);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(275, 22);
+            this.textBox2.Size = new System.Drawing.Size(206, 20);
             this.textBox2.TabIndex = 3;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(89, 117);
+            this.button1.Location = new System.Drawing.Point(67, 95);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 45);
+            this.button1.Size = new System.Drawing.Size(56, 37);
             this.button1.TabIndex = 6;
             this.button1.Text = "Thêm";
             this.button1.UseVisualStyleBackColor = false;
@@ -187,9 +190,10 @@ namespace WindowsFormsAppNhom
             // btSua
             // 
             this.btSua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.btSua.Location = new System.Drawing.Point(287, 117);
+            this.btSua.Location = new System.Drawing.Point(215, 95);
+            this.btSua.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btSua.Name = "btSua";
-            this.btSua.Size = new System.Drawing.Size(75, 45);
+            this.btSua.Size = new System.Drawing.Size(56, 37);
             this.btSua.TabIndex = 7;
             this.btSua.Text = "Sửa ";
             this.btSua.UseVisualStyleBackColor = false;
@@ -198,9 +202,10 @@ namespace WindowsFormsAppNhom
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(89, 22);
+            this.textBox1.Location = new System.Drawing.Point(67, 18);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(275, 22);
+            this.textBox1.Size = new System.Drawing.Size(206, 20);
             this.textBox1.TabIndex = 2;
             // 
             // label2
@@ -208,9 +213,10 @@ namespace WindowsFormsAppNhom
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(11, 63);
+            this.label2.Location = new System.Drawing.Point(8, 51);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 16);
+            this.label2.Size = new System.Drawing.Size(65, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Tên đối tác ";
             // 
@@ -219,18 +225,20 @@ namespace WindowsFormsAppNhom
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(11, 25);
+            this.label1.Location = new System.Drawing.Point(8, 20);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 16);
+            this.label1.Size = new System.Drawing.Size(61, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã đối tác ";
             // 
             // btThoat
             // 
             this.btThoat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btThoat.Location = new System.Drawing.Point(197, 117);
+            this.btThoat.Location = new System.Drawing.Point(149, 95);
+            this.btThoat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btThoat.Name = "btThoat";
-            this.btThoat.Size = new System.Drawing.Size(75, 45);
+            this.btThoat.Size = new System.Drawing.Size(56, 37);
             this.btThoat.TabIndex = 9;
             this.btThoat.Text = "Thoát";
             this.btThoat.UseVisualStyleBackColor = true;
@@ -238,9 +246,10 @@ namespace WindowsFormsAppNhom
             // btXoa
             // 
             this.btXoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btXoa.Location = new System.Drawing.Point(68, 117);
+            this.btXoa.Location = new System.Drawing.Point(51, 95);
+            this.btXoa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btXoa.Name = "btXoa";
-            this.btXoa.Size = new System.Drawing.Size(75, 45);
+            this.btXoa.Size = new System.Drawing.Size(56, 37);
             this.btXoa.TabIndex = 8;
             this.btXoa.Text = "Xóa ";
             this.btXoa.UseVisualStyleBackColor = false;
@@ -249,18 +258,20 @@ namespace WindowsFormsAppNhom
             // 
             this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox3.Location = new System.Drawing.Point(128, 25);
+            this.textBox3.Location = new System.Drawing.Point(96, 20);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(232, 22);
+            this.textBox3.Size = new System.Drawing.Size(176, 20);
             this.textBox3.TabIndex = 4;
             // 
             // textBox4
             // 
             this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox4.Location = new System.Drawing.Point(128, 74);
+            this.textBox4.Location = new System.Drawing.Point(96, 60);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(232, 22);
+            this.textBox4.Size = new System.Drawing.Size(176, 20);
             this.textBox4.TabIndex = 5;
             // 
             // label3
@@ -268,9 +279,10 @@ namespace WindowsFormsAppNhom
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(26, 25);
+            this.label3.Location = new System.Drawing.Point(20, 20);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 16);
+            this.label3.Size = new System.Drawing.Size(71, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Mã sản phẩm";
             // 
@@ -279,9 +291,10 @@ namespace WindowsFormsAppNhom
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(26, 77);
+            this.label4.Location = new System.Drawing.Point(20, 63);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(96, 16);
+            this.label4.Size = new System.Drawing.Size(78, 13);
             this.label4.TabIndex = 3;
             this.label4.Text = "Tên sản phẩm ";
             // 
@@ -290,22 +303,20 @@ namespace WindowsFormsAppNhom
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-
-            this.dataGridView1.Size = new System.Drawing.Size(857, 262);
-
-            this.dataGridView1.Size = new System.Drawing.Size(799, 262);
-
+            this.dataGridView1.Size = new System.Drawing.Size(599, 214);
             this.dataGridView1.TabIndex = 9;
             // 
             // qlDoiTac
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.splitContainer1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "qlDoiTac";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.qlDoiTac_Load);
